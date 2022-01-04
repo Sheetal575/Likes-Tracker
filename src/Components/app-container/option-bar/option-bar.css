@@ -1,0 +1,45 @@
+.option-bar-container{
+    float: right;
+    width: 50%;
+    border-radius: 0px !important;
+    border: 0px !important;
+    
+   
+}
+
+a{
+    text-decoration: none !important;
+    color: black;
+}
+@media screen and (max-width: 1080px) {
+    .option-bar-container {
+        width: 100%;
+    }
+  }
+  @media screen and (max-width: 1280px ) and (min-width:1000px)  {
+    .option-bar-container {
+        width: 70%;
+    }
+  }
+
+.profile-edit-button{
+    cursor: pointer;
+    font-size: 25px;
+}
+.profile-edit-button :hover{
+    color: rgb(32, 90, 178);
+}
+.profile-picture-bar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.options{
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+.options:hover{
+    color: white;
+    background-color: rgb(32, 90, 178);
+}
